@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(157, 244, 163) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#top-P{
+    padding: 0 20%;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(72, 104, 72); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#elem{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    /* align-items: center; */
+}
+h4{
+
+    color: rgb(157, 244, 163) ;
+}
+#box1{
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(157, 244, 163);
+    border-radius: 5px;
+}
+#box2{
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(157, 244, 163);
+    border-radius: 5px;
+}
+#box3{
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(157, 244, 163);
+    border-radius: 5px;
+}
+#btm-P{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    height: calc(100% - 80px);
+    width: 100%;
+    padding: 20px 20px;
+}
+#bubble{
+    height: 40px;
+    width: 40px ;
+    background-color: rgb(72, 104, 72);
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+#bubble:hover{
+    background-color: rgb(157, 244, 163); 
+}
